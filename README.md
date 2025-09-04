@@ -1,5 +1,8 @@
 # Neural Networks for Breast Cancer Classification
 
+**Author**: Salil Kumar Verma
+**Assignment**: Day 1 - Neural Networks Workshop
+
 ## Overview
 
 This project implements and evaluates a feedforward neural network for binary classification of breast cancer tumors. Using the Wisconsin Breast Cancer dataset, the notebook demonstrates the end-to-end process of building a classification model, from data exploration and preprocessing to model training, evaluation, and preparation for deployment. The goal is to accurately classify tumors as either malignant (cancerous) or benign (non-cancerous) using features derived from cell nuclei images.
