@@ -1,0 +1,28 @@
+{
+  "model_name": "Advanced Breast Cancer Classifier",
+  "architecture": "Feedforward Neural Network",
+  "layers": [
+    "Dense(128)",
+    "BatchNorm",
+    "Dropout(0.3)",
+    "Dense(64)",
+    "BatchNorm",
+    "Dropout(0.4)",
+    "Dense(32)",
+    "Dropout(0.2)",
+    "Dense(16)",
+    "Dense(1)"
+  ],
+  "activation_functions": "ReLU (hidden), Sigmoid (output)",
+  "optimizer": "Adam (lr=0.001)",
+  "loss_function": "Binary Crossentropy",
+  "input_features": 30,
+  "output_classes": 2,
+  "total_parameters": 15617,
+  "training_samples": 455,
+  "test_accuracy": 0.9736842105263158,
+  "test_precision": 0.9859154929577465,
+  "test_recall": 0.9722222222222222,
+  "test_f1_score": 0.9790209790209791,
+  "roc_auc": 0.9914021164021164
+}
